@@ -1,6 +1,6 @@
 import HomePage from "../components/HomePage"
 import HowItWorks from "../components/HowItWorks"
-// import OurProduct from "../components/OurProduct"
+import OurProducts from "../components/OurProducts"
 import Story from "../components/Story"
 
 
@@ -10,7 +10,7 @@ export default function Home() {
        <HomePage/>
        <HowItWorks/>
        <Story/> 
-       {/* <OurProduct/>    */}
+       <OurProducts/>    
     </div>
   )
 }
