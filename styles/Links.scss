@@ -1,0 +1,29 @@
+a{
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+a:hover{
+    color: #01996D;
+	transition: color 0.2s ease;
+}
+.btn, a.btn{
+    display: inline-block;
+    padding: 0 50px;
+    background-color: #01996D;
+    color: white;
+    border-radius: 4px;
+    height: 51px;
+    line-height: 51px;  
+    font-size: 20px;
+    transition: opacity 0.2s ease;
+}
+
+a.btn:hover, .btn:hover{
+    opacity: 0.8;
+    color: white;
+}
+
+a.big, big {
+    height: 65px;
+    line-height: 65px; 
+}

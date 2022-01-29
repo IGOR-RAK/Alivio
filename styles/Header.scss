@@ -1,0 +1,39 @@
+.header{
+	padding: 17px 0;
+	border-bottom: 1px solid #d6d6d6;
+	&-row{
+		
+		display: flex;
+		align-items: center;
+	}
+	&-logo{
+		margin-right: 172px;
+	}
+	&-nav {
+		color: #292929;
+	}
+	&-nav ul{
+		display: flex;
+		align-items: center;		
+	}	
+	// &-nav li:not(:last-child){
+	// 	margin-right: 74px;
+	// }
+	&-nav li+li{
+		margin-left: 74px;
+	}	
+	&-login{
+		margin-left: auto;
+		display: flex;
+		align-items: center;		
+	}
+	&-login a{
+		color: #000;
+	}
+	&-login a+a{
+		margin-left: 36px;
+	}
+	
+	
+	
+}

@@ -1,0 +1,18 @@
+.footer {
+    min-height: 655px;
+    background-color: #245852;
+    color: white;
+    padding: 105px 0;
+    &-content{
+        padding:0 65px;
+    }
+    &-logo + * {
+        margin-top: 75px;
+    }
+    & ul li + li {
+
+        margin-top: 60px;
+
+    }
+    
+  }
