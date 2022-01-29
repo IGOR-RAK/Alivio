@@ -1,4 +1,3 @@
-import { FC } from "react";
 import Image from "next/image";
 import item1 from "../public/img/item1.jpg";
 import item2 from "../public/img/item2.jpg";
@@ -18,7 +17,7 @@ const HowItWorks= () => {
                  How it works
             </div>
             <div className="how-header">
-                <div className="how-header__title">Understand & Release 
+                <div className="how-header__title">Understand  Release 
                             the stress in 3 steps</div>
                 <div className="how-header__text">
                         Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.
@@ -40,7 +39,7 @@ const HowItWorks= () => {
                 <div className="how-content__item--box2">
                         <div className="how-content__header">
                             <div className="how-content__number">02</div>
-                            <div className="how-content__title">Write & Understand</div>
+                            <div className="how-content__title">Write  Understand</div>
                         </div>
                         <div className="how-content__text">Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!</div>
                         <div className="how-content__img"><Image src={item2} width={390} height={492} alt="logo" /></div>

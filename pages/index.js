@@ -1,7 +1,7 @@
 import HomePage from "../components/HomePage"
 import HowItWorks from "../components/HowItWorks"
-import OurProduct from "../components/OurProduct"
-import Story from "../components/Story"
+// import OurProduct from "../components/OurProduct"
+// import Story from "../components/Story"
 
 
 export default function Home() {
@@ -9,8 +9,8 @@ export default function Home() {
     <div className="main">
        <HomePage/>
        <HowItWorks/>
-       <Story/> 
-       <OurProduct/>   
+       {/* <Story/> 
+       <OurProduct/>    */}
     </div>
   )
 }
